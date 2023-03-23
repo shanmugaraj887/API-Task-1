@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+/* ////////////////FOR CONTAINER//////////////////// */
+.container{
+    margin-top: 50px;
+background-image: url("./assets/national_geographic_nature_animal_forest_color_tree_hdr_ultrahd_black_white_hd_4k_wallpaper_1920x1200.jpg");
+background-attachment: fixed;
+
+}
+body{
+    
+    background-image: url("./assets/national_geographic_nature_animal_forest_color_tree_hdr_ultrahd_black_white_hd_4k_wallpaper_1920x1200.jpg");
+    
+    background-attachment:  fixed;
+    }
+
+/* //////////////////FOR COLUMN////////////////////////// */
+.col-md-6{
+    text-align: center;
+    border-radius: 20px;
+}
+.col-md-6:hover{
+    
+   box-shadow: 2px 2px 20px black;
+   padding:10px;
+    border-radius: 20px;
+    transition: ease-in-out 0.3s;
+ 
+
+}
+/* ////////////// FOR TITLE//////////////////////// */
+h1{
+    background-color: transparent;
+    color :white;
+    padding: 35px;
+    text-align: center;
+    font-family: 'Holtwood One SC', serif;
+    box-shadow: 20px 0px 30px black;
+    border-radius: 15px;
+    
+}
+/* ///////////////ANIMATION FOR TITLE/////////////////////// */
+p{
+    font-size: 100px;
+    transform: rotate(7deg);
+    text-shadow: 0px 0px 5px rgb(36, 35, 35);
+    transition: ease 1.5s;
+}
+h1:hover{
+    background-color: orangered;
+    transition: ease 0.8s;
+}
+p:hover{
+    transform: rotate(-7deg);
+    
+}
+/* //////////////////FOR NAME/////////////////////// */
+.animal-name{
+    font-family: 'Holtwood One SC', serif;
+    padding: 15px;
+    font-size: larger;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding:20px;
+border-radius: 10px;
+/* //////////////// FOR IMAGE */
+}
+
+.animal-image{
+    height:400px;
+    width:400px;
+    margin:20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px black;
+}
+/*               ABOUT                 */
+.about-animal{
+    color: white;
+    line-height: 30px;
+    font-size: large;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 20px;
+    text-shadow: 0px 0px 5px black;
+}
+
+/*              FOR BUTTON        AND ANIMATION     */
+#button{
+border-radius: 50px;
+
+border: orange;
+background-color: transparent;
+cursor: pointer;
+background-image: url("./assets/nav-bg-fill-blue.png");
+background-position: 0 -80%;
+background-repeat: repeat-x;
+transition: ease 1.5s;
+text-align: center;
+width:500px ;
+height:70px;
+filter: hue-rotate(140deg);
+color:white;
+font-size: larger;
+box-shadow: 2px 2px 10px black;
+text-shadow: 2px 2px 10px black;
+margin: 20px;
+}
+
+#button:hover{
+    background-position:center;
+    word-spacing: 10px;
+
+    }
+
+.button-space{
+ 
+   margin-top: 50px;
+    text-align: center;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(66, 66, 66); 
+    border-radius: 10px;
+  }
+ 
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius:20px;
+    height: 80px;
+  }
+  
+ 
+  ::-webkit-scrollbar-thumb:hover {
+    box-shadow: 1px 1px 20px rgb(255, 255, 255); 
+   
+  }
